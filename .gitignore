@@ -1,6 +1,42 @@
 .
 ..
-chef-repo/.chef/**
+**/.chef/*
+**/.chef/**
 RLCookbooks
 chef-repo-bkp
 yodlee
+
+#---------------------------
+# Intelij
+#---------------------------
+*.iml
+.settings/**
+**/.idea/*
+!.idea/copyright
+
+#---------------------------
+# Eclipse
+#---------------------------
+.metadata
+.settings
+.factorypath
+.classpath
+RemoteSystemsTempFiles/
+/.apt_generated/
+
+#---------------------------
+# OSX
+#---------------------------
+.DS_Store
+clientdb.xml
+
+#---------------------------
+# Windows
+#---------------------------
+Thumbs.db
+
+#---------------------------
+# Editor byproducts (Vim)
+#---------------------------
+*.swp
+*.swo
