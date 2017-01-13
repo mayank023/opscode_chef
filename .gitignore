@@ -1,5 +1,6 @@
 .
 ..
+chef-repo/.chef/*
 RLCookbooks
 chef-repo-bkp
 yodlee
